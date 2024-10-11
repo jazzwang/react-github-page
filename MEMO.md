@@ -269,3 +269,30 @@ From https://github.com/jazzwang/react-github-page
  * [new branch]      gh-pages   -> origin/gh-pages
 Already up to date.
 ```
+
+## 2024-10-11
+
+- remove `base` example project
+```bash
+@jazzwang ➜ /workspaces/react-github-page (main) $ git rm -r base
+[main e197d44] remove example project
+ 18 files changed, 20251 deletions(-)
+ delete mode 100644 base/.gitignore
+ delete mode 100644 base/README.md
+ delete mode 100644 base/package-lock.json
+ delete mode 100644 base/package.json
+ delete mode 100644 base/public/favicon.ico
+ delete mode 100644 base/public/index.html
+ delete mode 100644 base/public/logo192.png
+ delete mode 100644 base/public/logo512.png
+ delete mode 100644 base/public/manifest.json
+ delete mode 100644 base/public/robots.txt
+ delete mode 100644 base/src/App.css
+ delete mode 100644 base/src/App.js
+ delete mode 100644 base/src/App.test.js
+ delete mode 100644 base/src/index.css
+ delete mode 100644 base/src/index.js
+ delete mode 100644 base/src/logo.svg
+ delete mode 100644 base/src/reportWebVitals.js
+ delete mode 100644 base/src/setupTests.js
+```
