@@ -296,3 +296,17 @@ Already up to date.
  delete mode 100644 base/src/reportWebVitals.js
  delete mode 100644 base/src/setupTests.js
 ```
+- 將 repo 更名為 `react-labs` 來試試看 node.js `gh-pages` 是否可以支援多個子目錄專案。並刪除 Github CodeSpace 重新實驗。
+```bash
+jazzw@JazzBook:~/git/react-github-page$ gh repo rename
+? Rename jazzwang/react-github-page to: react-labs
+✓ Renamed repository jazzwang/react-labs
+✓ Updated the "origin" remote
+jazzw@JazzBook:~/git/react-github-page$ cd ..
+jazzw@JazzBook:~/git$ mv react-github-page/ react-labs
+jazzw@JazzBook:~/git$ cd react-labs/
+jazzw@JazzBook:~/git/react-labs$ gh cs delete
+? Choose codespace: jazzwang/react-labs (main*): react-github-page
+? Codespace reimagined-acorn-r47j4x5rwfw5wj has unsaved changes. OK to delete? Yes
+1 codespace(s) deleted successfully
+```
